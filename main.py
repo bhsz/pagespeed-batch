@@ -58,5 +58,7 @@ if __name__ == "__main__":
 
     # Call PageSpeed API and write to HTML result file
     print(f"\n---------- PageSpeed batch analysis starting ----------\n")
+    # Uncomment line below for Windows
+    # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(build_insights(lines))
     print(f"\n---------- PageSpeed batch analysis completed ----------\n")
