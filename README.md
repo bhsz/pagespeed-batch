@@ -1,9 +1,10 @@
 # PageSpeed Batch Analyser
 
 - Follow instructions at [https://developers.google.com/speed/docs/insights/v5/get-started](https://developers.google.com/speed/docs/insights/v5/get-started) to set up API key. Update API_KEY in *main.py*.
-- Install aiohttp dependency
+- Install requests and aiohttp dependency
 
     ```bash
+    pip install requests
     pip install aiohttp
     ```
 
