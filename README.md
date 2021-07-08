@@ -8,6 +8,12 @@
     pip install aiohttp
     ```
 
+- On Windows, uncomment line 62 before running
+
+    ```python
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    ```
+
 - To run, include path to file as command line argument. For example,
 
     ```bash
