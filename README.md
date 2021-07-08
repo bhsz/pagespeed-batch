@@ -8,7 +8,7 @@
     pip install aiohttp
     ```
 
-- On Windows, uncomment in *main.py* line 62 before running
+- On Windows, uncomment line 62 in *main.py* before running
 
     ```python
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
